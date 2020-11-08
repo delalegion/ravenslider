@@ -1,6 +1,6 @@
 {
   "name": "ravenslider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simply javascript slider",
   "main": "index.js",
   "scripts": {
