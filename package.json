@@ -1,0 +1,23 @@
+{
+  "name": "ravenslider",
+  "version": "1.0.0",
+  "description": "Simply javascript slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delalegion/ravenslider.git"
+  },
+  "keywords": [
+    "slider",
+    "ravenslider"
+  ],
+  "author": "Hubert Kruk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delalegion/ravenslider/issues"
+  },
+  "homepage": "https://github.com/delalegion/ravenslider#readme"
+}

@@ -1,4 +1,4 @@
-export class ravenSlider {
+class ravenslider {
 
     constructor(opts) {
         const defaultOpts = {
@@ -10,7 +10,7 @@ export class ravenSlider {
 
         this.options = Object.assign({}, defaultOpts, opts);
 
-        this.slider = document.querySelector('#ravenSlider');
+        this.slider = document.querySelector('#ravenslider');
         this.slideCount = 0;
 
         this.slideList = document.querySelector('.slider__list');
@@ -148,3 +148,5 @@ export class ravenSlider {
     }
 
 }
+
+module.exports.ravenslider = ravenslider;
