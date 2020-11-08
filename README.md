@@ -4,7 +4,58 @@ It's simply JS slider with images, description, button arrows and dots interacte
 
 # Installation
 
+`npm i ravenslider --save`
 
+```javascript
+// Import ravenslider
+import { ravenslider } from 'ravenslider';
+
+// Import slider styling
+import 'ravenslider/index.scss';
+
+// Initialize ravenslider
+const slider = new ravenslider();
+```
+
+### Then add html structure:
+
+```html
+<div class="slider" id="ravenSlider">
+    <div class="slider__photos">
+        <div class="slider__photo_list">
+            <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
+            <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
+            <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
+            <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
+            <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
+        </div>
+    </div>
+    <div class="slider__about">
+        <div class="slider__list">
+            <div class="slider__slide active">
+                <h3>Slide number 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.</p>
+            </div>
+            <div class="slider__slide">
+                <h3>Slide number 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.!</p>
+            </div>
+            <div class="slider__slide">
+                <h3>Slide number 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.!</p>
+            </div>
+            <div class="slider__slide">
+                <h3>Slide number 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.!</p>
+            </div>
+            <div class="slider__slide">
+                <h3>Slide number 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.</p>
+            </div>
+        </div>
+    </div>
+</div>
+```
 
 # Functions
 

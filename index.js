@@ -1,4 +1,4 @@
-class ravenslider {
+export class ravenslider {
 
     constructor(opts) {
         const defaultOpts = {
@@ -148,5 +148,3 @@ class ravenslider {
     }
 
 }
-
-module.exports.ravenslider = ravenslider;
