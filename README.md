@@ -20,7 +20,7 @@ const slider = new ravenslider();
 ### Then add html structure:
 
 ```html
-<div class="slider" id="ravenSlider">
+<div class="slider" id="ravenslider">
     <div class="slider__photos">
         <div class="slider__photo_list">
             <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
