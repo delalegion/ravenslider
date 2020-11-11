@@ -37,7 +37,6 @@ export class ravenslider {
 
         const groupDots = document.createElement('div');
         groupDots.classList.add('slider__dots');
-   
 
         for (let i=0; i<this.slide.length; i++)
         {
