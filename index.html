@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RavenSlider - Live preview</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: rgba(0,0,0,1);
+            font-family: 'Open Sans', sans-serif;
+        }
+        .background__image {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://i.picsum.photos/id/399/1920/1080.jpg?hmac=1iUvbeTYUWzWuvZk7ULmB_rBlxW2ODm0l_DOevt1ZgA');
+            opacity: 0.3;
+            filter: grayscale(1);
+        }
+        .container {
+            max-width: 1450px;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="background__image"></div>
+
+    <!-- Raven Slider Live Preview -->
+    <div class="container">
+        <div class="slider" id="ravenslider">
+            <div class="slider__photos">
+                <div class="slider__photo_list">
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1080" alt="photo"/></div>
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1082" alt="photo"/></div>
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1083" alt="photo"/></div>
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1084" alt="photo"/></div>
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1085" alt="photo"/></div>
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1086" alt="photo"/></div>
+                    <div class="slider__image"><img src="https://picsum.photos/1920/1087" alt="photo"/></div>
+                </div>
+            </div>
+            <div class="slider__about">
+                <div class="slider__list">
+                    <div class="slider__slide active">
+                        <h3>Slide number 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.</p>
+                    </div>
+                    <div class="slider__slide">
+                        <h3>Slide number 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.!</p>
+                    </div>
+                    <div class="slider__slide">
+                        <h3>Slide number 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.!</p>
+                    </div>
+                    <div class="slider__slide">
+                        <h3>Slide number 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.!</p>
+                    </div>
+                    <div class="slider__slide">
+                        <h3>Slide number 5</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.</p>
+                    </div>
+                    <div class="slider__slide">
+                        <h3>Slide number 6</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.</p>
+                    </div>
+                    <div class="slider__slide">
+                        <h3>Slide number 7</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim neque velit, quis convallis mauris efficitur et. Praesent diam massa, placerat nec dapibus rutrum, elementum at libero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
