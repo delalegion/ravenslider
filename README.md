@@ -57,6 +57,13 @@ const slider = new ravenslider();
 </div>
 ```
 
+### Important: You must add "defer" in your script tag when you adding script in html.
+### For example:
+
+```html
+<script src="index.js" defer></script>
+```
+
 # Functions
 
 You can change slider in couple ways:
@@ -70,7 +77,7 @@ You can change slider in couple ways:
 ### Default settings:
 
 ``` javascript
-const slide = new ravenSlider({
+const slide = new ravenslider({
     timerAllow: true,  // Timer automatization is set to true
     timerTime: 5000, // Timer time is set to 5 seconds ( 1 s = 1000 ms )
     generateDots: true, // Slider dots is set to true
